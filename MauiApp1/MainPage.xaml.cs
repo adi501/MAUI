@@ -21,5 +21,20 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new TabbedPageEXP1());
     }
+
+	private void BtnStackLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new StackLayoutEXP1());
+    }
+
+	private void BtnHorizontalStackLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new HorizontalStackLayoutEXP1());
+    }
+
+	private void BtnVerticalStackLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new VerticalStackLayoutEXP1());
+    }
 }
 

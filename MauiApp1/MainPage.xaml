@@ -4,7 +4,7 @@
              x:Class="MauiApp1.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout>
+        <VerticalStackLayout Spacing="20">
             <Label Text="Main Page"
                FontSize="12" />
             <Button
@@ -22,7 +22,21 @@
                 Text="Go to Tabbed Page EXP"
                Clicked="BtnTabbedPageEXP_Clicked"
                 HorizontalOptions="Center" />
-
+            <Button
+                x:Name="BtnStackLayoutEXP1"
+                Text="Go to Stack Layout EXP"
+               Clicked="BtnStackLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnHorizontalStackLayoutEXP1"
+                Text="Go to HorizontalStackLayout EXP"
+               Clicked="BtnHorizontalStackLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnVerticalStackLayoutEXP1"
+                Text="Go to VerticalStackLayout EXP"
+               Clicked="BtnVerticalStackLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.StackLayoutEXP1"
+             Title="StackLayoutEXP1">
+   
+    <StackLayout Spacing="10" VerticalOptions="Center" >
+
+        <Label 
+            Text="StackLayout "
+            VerticalOptions="Center" 
+            HorizontalOptions="Start"  ></Label>
+        <Label 
+            Text="StackLayout EXP1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" BackgroundColor="Red" />
+        <Label 
+            Text="StackLayout EXP1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" BackgroundColor="Yellow" />
+        <Label 
+            Text="StackLayout EXP1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" BackgroundColor="Brown" />
+        <Label 
+            Text="StackLayout EXP1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" BackgroundColor="BlueViolet" />
+    </StackLayout>
+</ContentPage>
