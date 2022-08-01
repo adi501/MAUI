@@ -12,6 +12,17 @@
                 Text="Go to Navigation Page EXP1"
                Clicked="BtnNavigation_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnFlyoutPageEXP"
+                Text="Go to Flyout Page EXP"
+               Clicked="BtnFlyoutPageEXP_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnTabbedPageEXP"
+                Text="Go to Tabbed Page EXP"
+               Clicked="BtnTabbedPageEXP_Clicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 

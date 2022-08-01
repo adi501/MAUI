@@ -11,5 +11,15 @@ public partial class MainPage : ContentPage
 	{
 		Navigation.PushAsync(new NavigationPageEXP1());
 	}
+
+	private void BtnFlyoutPageEXP_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new FlyoutPageEXP1());
+    }
+
+	private void BtnTabbedPageEXP_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new TabbedPageEXP1());
+    }
 }
 
