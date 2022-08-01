@@ -36,5 +36,30 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new VerticalStackLayoutEXP1());
     }
+
+	private void BtnGridLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new GridLayoutEXP1());
+    }
+
+	private void BtnAbsoluteLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new AbsoluteLayoutEXP1());
+    }
+
+	private void BtnFlexLayoutEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new FlexLayoutEXP1());
+    }
+
+	private void BtnBoxViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new BoxViewEXP1());
+    }
+
+	private void BtnLabelEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new LabelEXP1());
+    }
 }
 

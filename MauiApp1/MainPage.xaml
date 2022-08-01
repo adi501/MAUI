@@ -4,7 +4,7 @@
              x:Class="MauiApp1.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout Spacing="20">
+        <VerticalStackLayout Spacing="20" >
             <Label Text="Main Page"
                FontSize="12" />
             <Button
@@ -36,6 +36,31 @@
                 x:Name="BtnVerticalStackLayoutEXP1"
                 Text="Go to VerticalStackLayout EXP"
                Clicked="BtnVerticalStackLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnGridLayoutEXP1"
+                Text="Go to GridLayout EXP"
+               Clicked="BtnGridLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnAbsoluteLayoutEXP1"
+                Text="Go to AbsoluteLayout EXP"
+               Clicked="BtnAbsoluteLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnFlexLayoutEXP1"
+                Text="Go to FlexLayout EXP"
+               Clicked="BtnFlexLayoutEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnBoxViewEXP1"
+                Text="Go to BoxView EXP"
+               Clicked="BtnBoxViewEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnLabelEXP1"
+                Text="Go to Label EXP"
+               Clicked="BtnLabelEXP1_Clicked"
                 HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
