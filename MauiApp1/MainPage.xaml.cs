@@ -101,5 +101,26 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new BorderEXP1());
     }
+
+	private void BtnImageEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ImageEXP1());
+    }
+
+	private void BtnWebViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new WebViewEXP1());
+    }
+
+	private void BtnImageButtonEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ImageButtonEXP1());
+    }
+
+
+	private void BtnDisplayAlertEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new DisplayAlertEXP1());
+    }
 }
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.WebViewEXP1"
+             Title="WebViewEXP1">
+    <ScrollView>
+    <VerticalStackLayout>
+        <WebView HeightRequest="500" Source="https://adi-dotnet.blogspot.com/"></WebView>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

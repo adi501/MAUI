@@ -102,6 +102,28 @@
                 Text="Go to Border EXP"
                 Clicked="BtnBorderEXP1_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnImageEXP1"
+                Text="Go to Image EXP"
+                Clicked="BtnImageEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnWebViewEXP1"
+                Text="Go to WebView EXP"
+                Clicked="BtnWebViewEXP1_Clicked"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="BtnImageButtonEXP1"
+                Text="Go to ImageButton EXP"
+                Clicked="BtnImageButtonEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnDisplayAlertEXP1"
+                Text="Go to DisplayAlert EXP"
+                Clicked="BtnDisplayAlertEXP1_Clicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
