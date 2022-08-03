@@ -61,5 +61,45 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new LabelEXP1());
     }
+
+	private void BtnEllipseEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new EllipseEXP1());
+    }
+
+	private void BtnLineEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new LineEXP1());
+    }
+
+	private void BtnRectangleEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new RectangleEXP1());
+    }
+
+	private void BtnPolygonEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new PolygonEXP1());
+    }
+
+	private void BtnPolylineEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new PolylineEXP1());
+    }
+
+	private void BtnScrollViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ScrollViewEXP1());
+    }
+
+	private void BtnPathEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new PathEXP1());
+    }
+
+	private void BtnBorderEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new BorderEXP1());
+    }
 }
 

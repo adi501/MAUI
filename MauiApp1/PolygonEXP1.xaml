@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.PolygonEXP1"
+             Title="PolygonEXP1">
+    <VerticalStackLayout>
+        <Polygon Fill="yellow" Points="40,10,70,80,10,50" Stroke="red" StrokeThickness="5">
+        </Polygon>
+    </VerticalStackLayout>
+</ContentPage>

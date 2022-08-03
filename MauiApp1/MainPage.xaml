@@ -62,6 +62,46 @@
                 Text="Go to Label EXP"
                Clicked="BtnLabelEXP1_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnEllipseEXP1"
+                Text="Go to Ellipse EXP"
+               Clicked="BtnEllipseEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnLineEXP1"
+                Text="Go to Line EXP"
+               Clicked="BtnLineEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnRectangleEXP1"
+                Text="Go to Rectangle EXP"
+               Clicked="BtnRectangleEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnPolygonEXP1"
+                Text="Go to Polygon EXP"
+                Clicked="BtnPolygonEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnPolylineEXP1"
+                Text="Go to Polyline EXP"
+                Clicked="BtnPolylineEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnScrollViewEXP1"
+                Text="Go to ScrollView EXP"
+                Clicked="BtnScrollViewEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnPathEXP1"
+                Text="Go to Path EXP"
+                Clicked="BtnPathEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnBorderEXP1"
+                Text="Go to Border EXP"
+                Clicked="BtnBorderEXP1_Clicked"
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

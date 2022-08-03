@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.ScrollViewEXP1"
+             Title="ScrollViewEXP1">
+    <ScrollView>
+    <VerticalStackLayout Spacing="40">
+        <Label 
+            Text="1"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="2"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="3"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="4"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="5"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="6"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="7"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="8"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="9"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="10"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="11"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="12"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="13"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="14"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="15"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+            <Label 
+            Text="16"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
