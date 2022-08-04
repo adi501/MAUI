@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.SliderEXP1"
+             Title="SliderEXP1">
+    <VerticalStackLayout>
+        <Slider x:Name="SliderName"
+               Minimum="0" Maximum="10" MinimumTrackColor="Red" MaximumTrackColor="Green"
+                ThumbColor="Yellow" ValueChanged="SliderName_ValueChanged"></Slider>
+        <Label x:Name="lblSlider"></Label>
+        
+    </VerticalStackLayout>
+</ContentPage>

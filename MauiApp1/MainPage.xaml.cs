@@ -122,5 +122,20 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new DisplayAlertEXP1());
     }
+
+	private void BtnSliderEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new SliderEXP1());
+    }
+
+	private void BtnSearchBarEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new SearchBarEXP1());
+    }
+
+	private void BtnStepperEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new StepperEXP1());
+    }
 }
 
