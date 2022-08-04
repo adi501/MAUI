@@ -152,5 +152,25 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new TimePickerEXP1());
     }
+
+	private void BtnEntryEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new EntryEXP1());
+    }
+
+	private void BtnEditorEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new EditorEXP1());
+    }
+
+	private void BtnActivityIndicatorEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ActivityIndicatorEXP1());
+    }
+
+	private void BtnActivityProgressBarEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ProgressBarEXP1());
+    }
 }
 

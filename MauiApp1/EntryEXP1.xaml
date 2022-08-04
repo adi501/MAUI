@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.EntryEXP1"
+             Title="EntryEXP1">
+    <VerticalStackLayout>
+        <Label 
+            Text="Name:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="ExtryName" Placeholder="Name" PlaceholderColor="Green"
+            Keyboard="Text"   ></Entry>
+        <Label 
+            Text="Password:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="ExtryPWD" Placeholder="Password" PlaceholderColor="Green"
+              IsPassword="True" ></Entry>
+        <Label 
+            Text="Cell:"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        <Entry x:Name="ExtryCell" Placeholder="Cell No" PlaceholderColor="Green"
+             Keyboard="Numeric" TextChanged="ExtryCell_TextChanged" Completed="ExtryCell_Completed" ></Entry>
+      
+    </VerticalStackLayout>
+</ContentPage>

@@ -153,6 +153,27 @@
                 Text="Go to TimePicker EXP"
                 Clicked="BtnTimePickerEXP1_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnEntryEXP1"
+                Text="Go to Entry EXP"
+                Clicked="BtnEntryEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnEditorEXP1"
+                Text="Go to Editor EXP"
+                Clicked="BtnEditorEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnActivityIndicatorEXP1"
+                Text="Go to ActivityIndicator EXP"
+                Clicked="BtnActivityIndicatorEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnActivityProgressBarEXP1"
+                Text="Go to ProgressBar EXP"
+                Clicked="BtnActivityProgressBarEXP1_Clicked"
+                HorizontalOptions="Center" />
+
         </VerticalStackLayout>
     </ScrollView>
 
