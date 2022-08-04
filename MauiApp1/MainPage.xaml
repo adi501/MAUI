@@ -138,6 +138,21 @@
                 Text="Go to Stepper EXP"
                 Clicked="BtnStepperEXP1_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnSwitchEXP1"
+                Text="Go to Switch EXP"
+                Clicked="BtnSwitchEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnDatePickerEXP1"
+                Text="Go to DatePicker EXP"
+                Clicked="BtnDatePickerEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnTimePickerEXP1"
+                Text="Go to TimePicker EXP"
+                Clicked="BtnTimePickerEXP1_Clicked"
+                HorizontalOptions="Center" />
         </VerticalStackLayout>
     </ScrollView>
 

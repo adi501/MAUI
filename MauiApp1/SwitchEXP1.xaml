@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MauiApp1.StepperEXP1"
-             Title="StepperEXP1">
+             x:Class="MauiApp1.SwitchEXP1"
+             Title="SwitchEXP1">
     <VerticalStackLayout>
-        <Stepper x:Name="StepperName" Maximum="20" Minimum="2" Increment="2" 
-                 ValueChanged="StepperName_ValueChanged"></Stepper>
+        <Switch x:Name="Switch" Toggled="Switch_Toggled" ></Switch>
         <Label x:Name="lblData"></Label>
-       
     </VerticalStackLayout>
 </ContentPage>

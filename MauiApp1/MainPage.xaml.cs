@@ -137,5 +137,20 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new StepperEXP1());
     }
+
+	private void BtnSwitchEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new SwitchEXP1());
+    }
+
+	private void BtnDatePickerEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new DatePickerEXP1());
+    }
+
+	private void BtnTimePickerEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new TimePickerEXP1());
+    }
 }
 
