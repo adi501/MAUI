@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.CarouselviewEXP1"
+             Title="CarouselviewEXP1">
+    <VerticalStackLayout>
+        <IndicatorView x:Name="carsIndicator" HorizontalOptions="Center" IndicatorColor="LightGray" SelectedIndicatorColor="Gray" IndicatorsShape="Square" Margin="0,50,0,0" VerticalOptions="FillAndExpand" />
+        <CarouselView ItemsSource="{Binding Cars}" IndicatorView="{x:Reference carsIndicator}">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Frame HasShadow="True" BorderColor="DarkGray" CornerRadius="5" Margin="20" HeightRequest="300" HorizontalOptions="Center" VerticalOptions="CenterAndExpand">
+                            <StackLayout>
+                                <Label Text="{Binding Name}" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center" />
+                                <Image Source="{Binding Image}" Aspect="AspectFill" HeightRequest="200" WidthRequest="200" HorizontalOptions="Center" />
+                                <Label Text="{Binding Details}" />
+                            </StackLayout>
+                        </Frame>
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </VerticalStackLayout>
+</ContentPage>

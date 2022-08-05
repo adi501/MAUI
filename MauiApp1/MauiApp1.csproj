@@ -49,7 +49,15 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\car1.jfif" />
+	  <None Remove="Resources\Images\car2.jfif" />
+	  <None Remove="Resources\Images\car3.jfif" />
+	  <None Remove="Resources\Images\car4.jfif" />
 	  <None Remove="Resources\Images\logo.PNG" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -63,6 +71,9 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="BoxViewEXP1.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="CarouselviewEXP1.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="DatePickerEXP1.xaml">

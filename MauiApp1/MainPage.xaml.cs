@@ -172,5 +172,10 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new ProgressBarEXP1());
     }
+
+	private void BtnCarouselviewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new CarouselviewEXP1());
+    }
 }
 
