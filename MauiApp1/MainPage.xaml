@@ -178,6 +178,26 @@
                 Text="Go to Carouselview EXP"
                 Clicked="BtnCarouselviewEXP1_Clicked"
                 HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnListViewEXP1"
+                Text="Go to ListView EXP"
+                Clicked="BtnListViewEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnCollectionViewEXP1"
+                Text="Go to CollectionView EXP"
+                Clicked="BtnCollectionViewEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnPickerEXP1"
+                Text="Go to Picker EXP"
+                Clicked="BtnPickerEXP1_Clicked"
+                HorizontalOptions="Center" />
+            <Button
+                x:Name="BtnTableViewEXP1"
+                Text="Go to TableView EXP"
+                Clicked="BtnTableViewEXP1_Clicked"
+                HorizontalOptions="Center" />
             
         </VerticalStackLayout>
     </ScrollView>

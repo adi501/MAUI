@@ -177,5 +177,25 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new CarouselviewEXP1());
     }
+
+	private void BtnListViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new ListViewEXP1());
+    }
+
+	private void BtnCollectionViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new CollectionViewEXP1());
+    }
+
+	private void BtnPickerEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new PickerEXP1());
+    }
+
+	private void BtnTableViewEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new TableViewEXP1());
+    }
 }
 
