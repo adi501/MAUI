@@ -194,11 +194,10 @@
                 Clicked="BtnPickerEXP1_Clicked"
                 HorizontalOptions="Center" />
             <Button
-                x:Name="BtnTableViewEXP1"
-                Text="Go to TableView EXP"
-                Clicked="BtnTableViewEXP1_Clicked"
+                x:Name="BtnBillCalculatorEXP1"
+                Text="Go to Bill Calculator EXP"
+                Clicked="BtnBillCalculatorEXP1_Clicked"
                 HorizontalOptions="Center" />
-            
         </VerticalStackLayout>
     </ScrollView>
 

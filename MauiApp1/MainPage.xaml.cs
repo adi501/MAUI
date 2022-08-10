@@ -197,5 +197,10 @@ public partial class MainPage : ContentPage
 	{
         Navigation.PushAsync(new TableViewEXP1());
     }
+
+	private void BtnBillCalculatorEXP1_Clicked(object sender, EventArgs e)
+	{
+        Navigation.PushAsync(new BillCalculatorEXP1());
+    }
 }
 
